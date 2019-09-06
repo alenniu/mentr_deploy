@@ -3,11 +3,12 @@
     "version": "1.0.0",
     "main": "server/server.js",
     "repository": {},
-    "license": "MIT",
+    "license": "MIT", 
     "engines": {
       "node": "6.9.1"
     },
     "dependencies": {
+      "concurrently": "^4.0.1"
     },
     "scripts": {
       "build": "concurrently \"cd client && npm run build\" \"cd server && npm run build\"",
